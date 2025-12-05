@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Grão e Sabor</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f6f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: linear-gradient(135deg, #5c3d2e, #8b5a3c);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 120px 20px 40px; /* Padding-top compensa o header fixo */
+      display: grid;
+      gap: 40px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #5c3d2e;
+      border-left: 5px solid #c49a6c;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+    }
+    .menu-category {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+    .menu-category:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .menu-category img {
+      width: 200px;
+      height: 150px;
+      border-radius: 10px;
+      margin-right: 20px;
+      object-fit: cover;
+    }
+    .menu-category span {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #5c3d2e;
+    }
+    footer {
+      text-align: center;
+      background-color: #5c3d2e;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    a, button {
+      color: #5c3d2e;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: #c49a6c;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    a:hover, button:hover {
+      background-color: #5c3d2e;
+      color: white;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nosso Cardápio</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Cafés</h2>
+      <div class="menu-category">
+        <img src="https://th.bing.com/th/id/OIP.TsBmFL6Hp8abWXsEda5TjQHaEe?o=7&cb=12rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Expresso - Café forte e intenso">
+        <span>Expresso</span>
+      </div>
+      <div class="menu-category">
+        <img src="https://www.tasteofhome.com/wp-content/uploads/2017/10/exps37407_THE1213734_37407_WEB.jpg" alt="Cappuccino - Café cremoso com leite">
+        <span>Cappuccino</span>
+      </div>
+      <div class="menu-category">
+        <img src="https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-Square.jpg" alt="Mocha - Café com chocolate">
+        <span>Mocha</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Salgados</h2>
+      <div class="menu-category">
+        <img src="https://cdn.casaeculinaria.com/wp-content/uploads/2023/01/26110706/Pao-de-queijo-1.webp" alt="Pão de Queijo - Salgado brasileiro">
+        <span>Pão de Queijo</span>
+      </div>
+      <div class="menu-category">
+        <img src="https://uploads.metropoles.com/wp-content/uploads/2020/07/30164453/coxinha-2.jpg" alt="Coxinha - Salgado frito recheado">
+        <span>Coxinha</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Doces</h2>
+      <div class="menu-category">
+        <img src="https://guiadacozinha.com.br/wp-content/uploads/2024/05/bolodecenoura-1024x576.jpg" alt="Bolo de Cenoura - Doce caseiro">
+        <span>Bolo de Cenoura</span>
+      </div>
+      <div class="menu-category">
+        <img src="https://fotografias.antena3.com/clipping/cmsimages01/2023/03/23/EAA71486-1613-4E7F-9E73-A80A5ED58E14/brownie-cafe_98.jpg?crop=5215,2934,x0,y33&width=1900&height=1069&optimize=high&format=webply" alt="Brownie - Chocolate intenso">
+        <span>Brownie</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Grão e Sabor — Desde 2015. Todos os direitos reservados.</p>
+    <a href="cafe.html">
+      <button>Voltar para a Página Inicial</button>
+    </a>
+  </footer>
+</body>
+</html>
